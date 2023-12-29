@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    height: 10vh;
+    padding: 0px 50px 0px 50px;
+    background-color: rgb(54 119 173);
+}
+.pages a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all ease .2s;
+}
+.pages .active{
+    color: orange;
+}
+a:hover{
+    color: orange;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo h3,.logo h5{
+    letter-spacing: 2px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slog{
+    width: 80%;
+    height: 60%;
+}
+.slog h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    background: linear-gradient(135deg,#ff00d2,#fed90f,#00a2ff,#08f1b8,#ff00d2,#fed90f,#00a2ff,#09f1b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slog h4{
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(135deg,#ff00d2,#fed90f,#00a2ff,#08f1b8,#ff00d2,#fed90f,#00a2ff,#09f1b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imag img{
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+}
+.btn{
+    text-align: right;
+}
+input[type="button"]{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: rgb(218, 46, 46);
+}
