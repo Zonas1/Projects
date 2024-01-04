@@ -1,17 +1,6 @@
-mylist = ["apple","banana","Orange","Mango","Grapes","Pineapple"]
-print(mylist)
-mylist.remove("apple")
-print(mylist)
-mylist.append("apple")
-print(mylist)
-for x in mylist:
-    print(x)
-
-for i in range(len(mylist)):
-    print(mylist[i])
-i = 0
-while i < len(mylist):
-    print(mylist[i])
-    i = i+1
-mylist.sort(reverse=True)
-print(mylist)
+import random
+a = random.randrange(1,10)
+txt = "This is the number from 1 to 10 is :  {}"
+print(txt.format(a))
+b = "My name is {}. I am from {}. and {} was born in {}"
+print(b.format("John","Kotihawa","Buddha","Nepal"))
