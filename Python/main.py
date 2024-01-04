@@ -1,18 +1,17 @@
-mylist = ["apple","banana","Orange","Mango","Kiwi"]
-mylist[2] = "Pineapple"
+mylist = ["apple","banana","Orange","Mango","Grapes","Pineapple"]
 print(mylist)
-mylist[1] = "Banana"
+mylist.remove("apple")
 print(mylist)
-mylist.insert(0,"Dragon Fruit")
+mylist.append("apple")
 print(mylist)
-mylist.append("Carrot")
-print(mylist)
-myanother = ["Meat","Fish","Chicken"]
-mylist.extend(myanother)
-print(mylist)
-mylist.remove("Pineapple")
-print(mylist)
-mylist.pop(3)
-print(mylist)
-mylist.insert(5,"John")
+for x in mylist:
+    print(x)
+
+for i in range(len(mylist)):
+    print(mylist[i])
+i = 0
+while i < len(mylist):
+    print(mylist[i])
+    i = i+1
+mylist.sort(reverse=True)
 print(mylist)
