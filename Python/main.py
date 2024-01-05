@@ -1,6 +1,3 @@
-import random
-a = random.randrange(1,10)
-txt = "This is the number from 1 to 10 is :  {}"
-print(txt.format(a))
-b = "My name is {}. I am from {}. and {} was born in {}"
-print(b.format("John","Kotihawa","Buddha","Nepal"))
+my_name = ["John","Joey","Hero","Dil","Dilip","Krishna","Rajan","Suman","Balkrishna"]
+my_name.sort(reverse=True)
+print(my_name)
