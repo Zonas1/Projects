@@ -1,3 +1,4 @@
-my_name = ["John","Joey","Hero","Dil","Dilip","Krishna","Rajan","Suman","Balkrishna"]
-my_name.sort(reverse=True)
-print(my_name)
+myset = {"orange","apple","Mango"}
+myset2 = {"pineapple","blueberry","apple"}
+x = myset.intersection(myset2)
+print(x)
