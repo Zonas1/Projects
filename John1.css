@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(28 27 27);
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    position: absolute;
+}
+.logo h1{
+    font-size: 3vh;
+}
+.links ul,.skills ul{
+    display: flex;
+}
+.links ul li,.skills ul li{
+    padding: 0px 10px;
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+}
+.links ul li a:hover{
+    color: orange;
+}
+.page1{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slogan{
+    width: 50%;
+}
+.slogan h1{
+    font-size: 4vw;
+    font-weight: 900;
+}
+.social{
+    padding: 20px;
+    display: flex;
+}
+.slogan .social img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px;
+}
+.image img{
+    width: 60%;
+    border-radius: 50%;
+    border: 5px solid orange;
+}
+.skills{
+    padding: 20px 0px;
+}
+.red{
+    color: red;
+}
+.orange{
+    color: orange;
+}
+.image{
+    text-align: center;
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .page1{
+        flex-direction: column-reverse;
+        padding: 10px 2vw;
+        text-align: center;
+    }
+    .slogan,.image{
+        width: 78%;
+    }
+    .social{
+        text-align: center;
+        justify-content: center;
+    }
+  }
