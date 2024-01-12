@@ -1,5 +1,8 @@
-def myfun(name,add,country):
-    print("Your Name is : " + name + " and you live in "+add+" place of "+country)
-myfun("John","Kotihawa","Nepal")
-myfun("Joey","Madhawaliya","Nepal")
-myfun(name = "Hiro",add = "Tilottama",country = "Nepal")
+class person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+p1 = person("John","26")
+print(p1.age)
+       
