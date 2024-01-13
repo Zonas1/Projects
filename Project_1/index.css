@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+    position: absolute;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log img{
+    width: 50px;
+    height: 50px;
+}
+.name h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    padding: 0px 10px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    color: blue;
+}
+.page1{
+    width: 100%;
+    padding: 0px 10%;
+    height: 100vh;
+    background-color: hsla(0, 6%, 97%, 0.507);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con h1{
+    font-size: 10vh;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.con h3{
+    font-size: 3vh;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.con button{
+    padding: 14px 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(65, 65, 214);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all ease 0.5s;
+    box-shadow: rgba(79, 28, 219, 0.1) 0px 20px 25px -5px, rgba(42, 13, 145, 0.623) 0px 10px 10px -5px;
+}
+.con button:hover{
+    background-color: orange;
+    color: black;
+}
+.image img{
+    width: 70%;
+    height: 70%;
+}
+.links{
+    margin-top: 40px;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.links ul li a{
+    text-decoration: none;
+}
+.links ul li a img{
+    width: 40px;
+    height: 40px;
+}
+.orange{
+    color: orange;
+}
+.con .red{
+    color: crimson;
+}
