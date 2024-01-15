@@ -1,4 +1,9 @@
-import datetime
+import re
 
-x = datetime.datetime(2024,5,28)
-print(x)
+txt = "My name is John kathariya Tharu and i am very bad boy"
+
+x = re.search("^M.*y$",txt)
+if x:
+    print("You have a match")
+else:
+    print("You have no match")
