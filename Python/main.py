@@ -1,9 +1,5 @@
-import re
-
-txt = "My name is John kathariya Tharu and i am very bad boy"
-
-x = re.search("^M.*y$",txt)
-if x:
-    print("You have a match")
+import os 
+if os.path.exists("john.txt"):
+    os.remove("john.txt")
 else:
-    print("You have no match")
+    print("There is no file")
