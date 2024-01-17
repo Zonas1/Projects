@@ -1,5 +1,3 @@
-import os 
-if os.path.exists("john.txt"):
-    os.remove("john.txt")
-else:
-    print("There is no file")
+import numpy
+arr = numpy.array([[1,2,3,4],[4,5,6,7]])
+print(arr[1,-4])
